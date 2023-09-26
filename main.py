@@ -41,7 +41,7 @@ from PIL import Image, ImageGrab # pip install pillow
 import time
 
 def hit(key):
-    pyautogui.keyDown(key)
+    pyautogui.press(key)
     return
 
 def isCollide(data):
